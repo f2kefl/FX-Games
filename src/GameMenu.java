@@ -102,7 +102,7 @@ public class GameMenu extends Application
 
         root.getChildren().addAll(ivBG, menuBox);
         Scene scene = new Scene(root, 750, 421);
-        primaryStage.setTitle("Witcher III: Wild Hunt");
+        primaryStage.setTitle("JavaFX: Mini Games");
         primaryStage.setOnCloseRequest(event -> System.exit(0));
         primaryStage.setScene(scene);
         primaryStage.show();
